@@ -12,7 +12,7 @@
     justify-content: space-between;
     border-radius:80px;
     height:40px;
-    background-color:#FAF6F0;
+    background-color:#fbf9f7;
 }
 .title h2{
     font-size:2.5rem;
@@ -45,7 +45,7 @@
 @media screen and (max-width:750px){
 
     body{
-    background-color: #fae9d7;
+        background-color: #ffe2e2;
     }
     .ham {
         display: inline;
