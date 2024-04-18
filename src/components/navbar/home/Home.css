@@ -187,10 +187,24 @@
     .imgs{
         cursor: pointer;
         display:grid;
-        /* grid-template-columns:40px  120px 40px; */
         gap:15%;
         align-items:baseline;
     }
+    .heading{
+        font-size: 1.5rem;
+    }
+    .heading::after{
+        right:-7%;
+        animation: tech2  2s  alternate forwards;
+
+    }
+    @keyframes tech2{
+        from{
+            width: 0;
+        }to{
+            width:115px;
+        }
+      }
     @keyframes border {
 
         from{
@@ -202,9 +216,6 @@
         }
         
       }
-      .heading::before{
-        width: 20px;
-      }
    
       @keyframes tech{
         from{
@@ -212,5 +223,16 @@
         }to{
             width:30px;
         }
+      }
+      @keyframes detail {
+
+        from{
+            transform: translatey(-60px);
+            opacity: 0;
+        }to{
+            transform: translatex(0px);
+            opacity:1;
+        }
+        
       }
   }
