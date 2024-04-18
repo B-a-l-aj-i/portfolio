@@ -16,9 +16,9 @@ function Home(){
             <div className="links ">
               <div className="imgs">
 
-                <a href="https://github.com/B-a-l-aj-i" target="_blank"><img src={github} alt="gitHub" width={35} height={35}  /></a>
+                <a href="https://github.com/B-a-l-aj-i" target="_blank"  rel="noreferrer"><img src={github} alt="gitHub" width={35} height={35} /></a>
                 <a href="https://github.com/B-a-l-aj-i"><img src={linkedin} alt="linkedin" width={35} height={35} /></a>
-                <button onClick={window.open('C:\portfolio2\src\components\navbar\home\jam--github.png')} className="btn"> Resume </button>
+                <button  className="btn"> Resume </button>
             </div>
             </div>
 
