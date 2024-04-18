@@ -185,8 +185,7 @@
     }
     .techimages{
     border-radius:20px;
-
-        max-width:100%;
+        max-width:90%;
     }
     .btn{
         width: 140px;
