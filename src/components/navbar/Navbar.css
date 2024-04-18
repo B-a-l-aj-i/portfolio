@@ -102,7 +102,7 @@
         font-size: 1rem;
         flex-direction: column;
         align-items: center;
-        transition: 2s;
+        transform: translateY(25px);
     }
     
     body {
@@ -113,29 +113,27 @@
         height: 30px;
         width: 100%;
         text-align:center;
-        background-color: rgb(205, 97, 255);
+        background-color: rgb(221, 148, 255);
         color:white;
-        transform: translateY(20px);
+        transform: translatex(20px);
         /* animation: li 2s forwards; */
     }
     .li1{
         animation: li 1s forwards;
-        transform: translatex(30px);
+
     }
     .li2{
         animation: li 1.4s forwards;
 
-        transform: translatex(32px);
-
     }
     .li3{
         animation: li 2s forwards;
-        transform: translatex(34px);
+
 
     }
     .li4{
         animation: li 2.4s forwards;
-        transform: translatex(36px);
+  
 
     }
     
@@ -143,7 +141,7 @@
 
         from{
             
-            transform: translatex(900px);
+            transform: translatex(100px);
         }
         
     }
