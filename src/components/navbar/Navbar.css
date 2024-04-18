@@ -3,7 +3,7 @@
     padding-left:17%;
     padding-top:2%;
     margin: 0;
-    background-color: #F4EAE0;
+    background-color: #fae9d7;
   }
 .navBar{
     display: flex;
@@ -55,7 +55,7 @@
     
     .title h2 {
         font-size: 1.2rem;
-        margin: 0;
+        margin: 10;
     }
     
     .lists {

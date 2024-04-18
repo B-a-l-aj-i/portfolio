@@ -12,7 +12,7 @@
 
 .name{
     width:600px;
-    animation: border 1.5s forwards;
+    animation: border 2.2s forwards;
 }
 
 
@@ -108,7 +108,7 @@
       }
 .heading:after,
 ::before{
-    animation: tech  1s  alternate forwards;
+    animation: tech  2s  alternate forwards;
 }
   @keyframes tech{
     from{
@@ -121,7 +121,7 @@
   @keyframes detail {
 
     from{
-        transform: translatey(20px);
+        transform: translatey(60px);
         opacity: 0;
     }to{
         transform: translatex(0px);
