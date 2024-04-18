@@ -54,6 +54,7 @@
     display:grid;
     grid-template-columns:40px 40px;
     gap:0.5%;
+
 }
 
 
@@ -130,9 +131,14 @@
   }
 
   .techimages{
+    position: relative;
+    /* left: 20%; */
     display:grid;
-    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
-    gap: 20px;
+    /* width: 600px; */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    grid-auto-rows: auto;
+    height: auto;
   }
 
   @keyframes border {
@@ -150,6 +156,10 @@
 
 
   @media screen and (max-width:750px){
+    .techimages img{
+        width: 45px;
+        height:45px;
+    }
     .btn{
         width: 140px;
     }
