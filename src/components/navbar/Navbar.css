@@ -44,6 +44,9 @@
 }
 @media screen and (max-width:750px){
 
+    body{
+        background-color: #f9eaea;
+    }
     .ham {
         display: inline;
     }
