@@ -1,15 +1,15 @@
 import github from "./jam--github.png"
 import linkedin from "./simple-icons--linkedin.png"
 
-import bootstrap from "./imgs/devicon--bootstrap-wordmark.png"
-import css from "./imgs/devicon--css3-wordmark.png"
-import html from "./imgs/logos--html-5.png"
-import java from "./imgs/devicon--java-wordmark.png"
-import sql from "./imgs/devicon--postgresql-wordmark.png"
-import react from "./imgs/devicon--react-wordmark.png"
-import figma from "./imgs/logos--figma.png"
-import git from "./imgs/logos--git.png"
-import js from "./imgs/vscode-icons--file-type-js-official.png"
+import bootstrap from "./imgs/simple-icons--bootstrap.png"
+import css from "./imgs/simple-icons--css3.png"
+import html from "./imgs/uiw--html5.png"
+import java from "./imgs/devicon-plain--java.png"
+import sql from "./imgs/simple-icons--postgresql.png"
+import react from "./imgs/ri--reactjs-fill.png"
+import figma from "./imgs/solar--figma-bold-duotone.png"
+import git from "./imgs/cib--git.png"
+import js from "./imgs/fa-brands--js.png"
 
 
 
@@ -46,15 +46,57 @@ function Home(){
 <p className="heading">TECH_STACK </p>
 
 <main className="techimages">
-    <img src={html}  width={70} heigth={50}  alt="imgs" />
-    <img src={css} width={70} heigth={50}  alt="imgs"/>
-    <img src={bootstrap} width={70} heigth={50}  alt="imgs"/>
-    <img src={js} width={70} heigth={50}  alt="imgs"/>
-    <img src={react} width={70} heigth={50}  alt="imgs"/>
-    <img src={java} width={70} heigth={50} alt="imgs" />
-    <img src={sql} width={70} heigth={50}  alt="imgs"/>
-    <img src={figma} width={70} heigth={50} alt="imgs" />
-    <img src={git} width={70} heigth={50} alt="imgs" />
+<figure  className="logos">
+
+    <img src={html}   alt="imgs" />
+    <figcaption>html</figcaption>
+</figure>
+<figure className="logos">
+
+    <img src={css}  alt="imgs"/>
+    <figcaption>css</figcaption>
+</figure>
+<figure className="logos">
+    
+    <img src={bootstrap}  alt="imgs"/>
+    <figcaption>bootstrap</figcaption>
+</figure>
+
+<figure className="logos">
+    
+    <img src={js}  alt="imgs"/>
+    <figcaption>javascript</figcaption>
+</figure>
+
+<figure className="logos">
+    
+    <img src={react}  alt="imgs"/>
+    <figcaption>react</figcaption>
+</figure>
+
+<figure className="logos">
+    
+    <img src={java} alt="imgs" />
+    <figcaption>java</figcaption>
+</figure>
+
+<figure className="logos">
+    
+    <img src={sql}  alt="imgs"/>
+    <figcaption>postgresql</figcaption>
+</figure>
+
+<figure className="logos">
+    
+    <img src={figma} alt="imgs" />
+    <figcaption>figma</figcaption>
+</figure>
+
+<figure className="logos"> 
+    
+    <img src={git} alt="imgs" />
+    <figcaption>git</figcaption>
+</figure>
     
 
 
