@@ -191,6 +191,9 @@
 
 
   @media screen and (max-width:750px){
+    .logos{
+        background-color: #f9eaea;
+    }
     .techimages img{
         width: 25px;
         height:25px;
