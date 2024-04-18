@@ -43,6 +43,7 @@
 
 .detail{
     padding: 5%;
+    opacity: 0;
     animation: detail 1.5s forwards;
 }
 
@@ -189,6 +190,8 @@
     
   }
 
+  /* **********************************************MOBILE************************************************************8 */
+
 
   @media screen and (max-width:750px){
     .logos{
@@ -211,7 +214,8 @@
     }
     
     .name h2{
-        font-size:1.2rem;
+        font-size:11px;
+        font-weight:900;
         letter-spacing:3px;
     }
     .name{

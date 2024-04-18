@@ -10,13 +10,11 @@ function Navbar(){
         </div>
 
             <ul className="lists">
-                <li>Home</li>
-                <li>About</li>
-                <li>Projects</li>
-                <li>Contact</li>
-
+                <li className="li1">Home</li>
+                <li className="li2">About</li>
+                <li className="li3">Projects</li>
+                <li className="li4">Contact</li>
             </ul>
-
             <span className="ham" ><img src={ham} width={40} height={40} alt="img"/></span>
         </nav>
     )
