@@ -17,7 +17,7 @@ function Navbar(){
 
             </ul>
 
-            <span className="ham" ><img src={ham} width={40} height={40}/></span>
+            <span className="ham" ><img src={ham} width={40} height={40} alt="img"/></span>
         </nav>
     )
 
