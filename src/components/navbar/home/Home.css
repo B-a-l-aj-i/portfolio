@@ -38,22 +38,22 @@
     font-weight: 100;
     border: none;
     border-radius:10px;
-    margin-top:5%;
     cursor: pointer;
 }
 
 .detail{
     padding: 5%;
-    /* transform: translatex(-150px); */
     animation: detail 1.5s forwards;
 }
 
 .imgs{
     cursor: pointer;
-    display:grid;
+    /* display:grid;
     grid-template-columns:40px 40px;
-    gap:0.5%;
-
+    gap:0.5%; */
+    gap: 5%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
@@ -214,9 +214,7 @@
     }
     .imgs{
         cursor: pointer;
-        display:grid;
-        gap:15%;
-        align-items:baseline;
+
     }
     .heading{
         font-size: 1.5rem;
