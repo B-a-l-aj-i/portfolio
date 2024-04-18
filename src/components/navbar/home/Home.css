@@ -129,6 +129,12 @@
     
   }
 
+  .techimages{
+    display:grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+    gap: 20px;
+  }
+
   @keyframes border {
 
     from{
@@ -141,7 +147,12 @@
     
   }
 
+
+
   @media screen and (max-width:750px){
+    .btn{
+        width: 140px;
+    }
     .name h1{
         margin: 0;
         font-size:3rem;
