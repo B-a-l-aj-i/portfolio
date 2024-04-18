@@ -14,6 +14,8 @@
     height:40px;
     background-color:#fbf9f7;
 }
+
+
 .title h2{
     font-size:2.5rem;
     margin:0px;
@@ -43,6 +45,17 @@
     display: none;
 }
 @media screen and (max-width:750px){
+
+    .navBar::before{
+        content:"";
+        display: none;
+        height:0.7px;
+        width:35px;
+        background: rgb(41, 41, 41);
+        position: absolute;
+        top:44%;
+        left:55%;
+      }
 
     body{
         background-color: #f9eaea;

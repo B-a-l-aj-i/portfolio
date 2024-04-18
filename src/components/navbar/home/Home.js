@@ -7,7 +7,7 @@ import html from "./imgs/uiw--html5.png"
 import java from "./imgs/devicon-plain--java.png"
 import sql from "./imgs/simple-icons--postgresql.png"
 import react from "./imgs/ri--reactjs-fill.png"
-import figma from "./imgs/solar--figma-bold-duotone.png"
+import figma from "./imgs/logos--figma.png"
 import git from "./imgs/cib--git.png"
 import js from "./imgs/fa-brands--js.png"
 
@@ -88,7 +88,7 @@ function Home(){
 
 <figure className="logos">
     
-    <img src={figma} alt="imgs" />
+    <img src={figma} alt="imgs" width={3} />
     <figcaption>figma</figcaption>
 </figure>
 

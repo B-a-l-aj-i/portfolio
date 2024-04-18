@@ -1,7 +1,7 @@
 .all{
      position: absolute;
      top: 25%;
-     left: 25%;
+     left: 20%;
      display: grid;
      gap: 60px;
 }
@@ -98,7 +98,6 @@
     .heading:after{
         content:" ";
         height:1px;
-        /* width:350px; */
         background: rgb(66, 66, 66);
         display: block;
         position: absolute;
@@ -147,12 +146,24 @@
 
 .techimages{
     max-width:85%;
-    background-color: #FAF6F0;
-    border-radius: 50px;
+    border-radius: 25px;
     display: flex;
     flex-wrap: wrap;
+    animation: tm 2s 1.5s forwards;
 }
+@keyframes tm {
 
+    from{
+        height: 0;
+    background-color: #FAF6F0;
+
+    }
+    to{
+        height:200px;
+    background-color: #FAF6F0;
+        
+    }
+}
 .logos{
     margin: 1.6%;
     padding:2%;
@@ -163,6 +174,7 @@
     align-items: center;
     border-radius:15px;
     background-color: #ffe2e2;
+    cursor: pointer;
 }
 
   @keyframes border {
