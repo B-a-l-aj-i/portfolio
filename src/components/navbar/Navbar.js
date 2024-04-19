@@ -1,5 +1,7 @@
 import "./Navbar.css"
-import ham from "./charm--menu-hamburger.png"
+import ham from "./home/imgs/solar--hamburger-menu-bold.png"
+import can from "./home/imgs/basil--cancel-solid.png"
+
 function Navbar(){
 
     return(
@@ -15,7 +17,13 @@ function Navbar(){
                 <li className="li3">Projects</li>
                 <li className="li4">Contact</li>
             </ul>
-            <span className="ham" ><img src={ham} width={40} height={40} alt="img"/></span>
+            <span className="ham" >
+
+           <span className="show"> <img src={ham}   width={40} height={40} alt="img"/> </span> 
+           
+            <span className="hide"> <img src={can}  width={40} height={40} alt="img"/> </span>
+
+            </span>
         </nav>
     )
 

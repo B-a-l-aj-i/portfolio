@@ -116,7 +116,6 @@
         background-color: rgb(221, 148, 255);
         color:white;
         transform: translatex(20px);
-        /* animation: li 2s forwards; */
     }
     .li1{
         animation: li 1s forwards;
@@ -145,12 +144,24 @@
         }
         
     }
-    .navBar:hover .ham {
-        display: none;
+    .hide{
+        opacity:0;
     }
+    .show, .hide {
+        position: absolute;
+        right: 2%;
+    }
+    
     .navBar:hover .lists{
         display: flex;
         flex-wrap: wrap;
     }
     
+    .ham:hover .hide {
+        opacity: 1;
+    }
+    
+    .ham:hover .show {
+        opacity: 0;
+    }
 }

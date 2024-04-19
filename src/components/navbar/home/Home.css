@@ -212,6 +212,11 @@
         margin: 0;
         font-size:3rem;
     }
+    .name span{
+        font-size:18px;
+        font-weight:normal;
+        display: block;
+    }
     
     .name h2{
         font-size:11px;
@@ -229,7 +234,7 @@
     .info{
         font-weight: lighter;
         display:block;
-        width: 90%;
+        width: 100%;
     }
     .imgs{
         cursor: pointer;
