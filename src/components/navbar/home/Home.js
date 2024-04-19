@@ -22,7 +22,7 @@ function Home(){
         <section className="info">
 
             <div className="name">
-                <h1><span >Hey,i'm </span>  Balaji</h1>
+                <h1><span style={{fontSize:'20px',fontWeight:'normal'}}>Hey,i'm </span>  Balaji</h1>
                 <h2 >juniorFRONTENDdeveloper</h2>
             </div>
 
