@@ -8,7 +8,7 @@ function Navbar(){
         
         <nav className="navBar">
         <div className="title">
-        <h2>Portfolio</h2>
+        <a href="https://master--b-a-l-aj-i.netlify.app/" style={{textDecoration:'none'}}><h2>b-a-l-aj-i</h2></a>
         </div>
 
             <ul className="lists">
