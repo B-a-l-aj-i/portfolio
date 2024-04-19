@@ -1,6 +1,6 @@
 import "./Navbar.css"
 import ham from "./home/imgs/solar--hamburger-menu-bold.png"
-import can from "./home/imgs/basil--cancel-solid.png"
+
 
 function Navbar(){
 
@@ -8,7 +8,7 @@ function Navbar(){
         
         <nav className="navBar">
         <div className="title">
-        <a href="https://master--b-a-l-aj-i.netlify.app/" style={{textDecoration:'none'}}><h2>b-a-l-aj-i</h2></a>
+        <a href="https://master--b-a-l-aj-i.netlify.app/" rel="noreferrer" style={{textDecoration:'none'}}><h2>b-a-l-aj-i</h2></a>
         </div>
 
             <ul className="lists">
