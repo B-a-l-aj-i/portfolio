@@ -98,11 +98,12 @@
     .lists {
         display: none;
         width: 100px;
-        height: 150px;
+        height: 200px;
         font-size: 1rem;
         flex-direction: column;
         align-items: center;
-        transform: translateY(25px);
+        transform: translateY(-16px);
+        justify-content: space-evenly;
     }
     
     body {
@@ -114,8 +115,8 @@
         width: 100%;
         text-align:center;
         background-color: rgb(221, 148, 255);
+        border-radius:10px;
         color:white;
-        transform: translatex(20px);
     }
     .li1{
         animation: li 1s forwards;
@@ -132,8 +133,9 @@
     }
     .li4{
         animation: li 2.4s forwards;
-  
-
+    }
+    .li5:hover .lists{
+        display: none;
     }
     
     @keyframes li {
@@ -144,24 +146,22 @@
         }
         
     }
-    .hide{
+    /* .hide{
         opacity:0;
-    }
-    .show, .hide {
-        position: absolute;
-        right: 2%;
-    }
-    
+    } */
+
     .navBar:hover .lists{
         display: flex;
-        flex-wrap: wrap;
     }
-    
-    .ham:hover .hide {
-        opacity: 1;
+    .navBar:hover{
+        border-radius: 10px;
+        position: absolute;
+        width:90%;
+        height:200px;
+        z-index: 10;
+        transition: 2s;
     }
-    
-    .ham:hover .show {
-        opacity: 0;
+    .navBar:hover .ham{
+        display:none;
     }
 }

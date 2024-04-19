@@ -235,6 +235,7 @@
         font-weight: lighter;
         display:block;
         width: 100%;
+        z-index: 4;
     }
     .imgs{
         cursor: pointer;

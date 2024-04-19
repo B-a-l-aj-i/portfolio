@@ -16,14 +16,12 @@ function Navbar(){
                 <li className="li2">About</li>
                 <li className="li3">Projects</li>
                 <li className="li4">Contact</li>
+
             </ul>
             <span className="ham" >
-
-           <span className="show"> <img src={ham}   width={40} height={40} alt="img"/> </span> 
-           
-            <span className="hide"> <img src={can}  width={40} height={40} alt="img"/> </span>
-
+            <span className="show"> <img src={ham}   width={40} height={40} alt="img"/> </span> 
             </span>
+
         </nav>
     )
 
