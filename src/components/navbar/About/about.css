@@ -1,6 +1,6 @@
 .abt{
     position:absolute;
-    top:115%;
+    top:100%;
     right:15%; 
     width:60%;
     display:grid;
@@ -13,8 +13,8 @@
     border-radius: 30px;
 }
 .pic{
-    width:328px;
-    height:364px;
+    width:286px;
+    height:343px;
     border: 19px solid rgb(255, 255, 255);
     box-shadow: 3px 3px 2px;
 }
@@ -23,7 +23,9 @@
 @media screen and (max-width:750px) {
 
     .abt{
-        width:100%;
+    top:115%;
+
+    width:100%;
     right:0%; 
     display:flex;
     flex-direction:column-reverse;
