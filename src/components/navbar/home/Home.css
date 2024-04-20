@@ -1,9 +1,10 @@
 .all{
-     position: absolute;
-     top: 25%;
-     left: 20%;
-     display: grid;
-     gap: 60px;
+    position:absolute;
+    top: 25%;
+    left: 20%;
+    /* margin: 7%; */
+    display: grid;
+    gap: 60px;
 }
 .info{
     display: grid;
@@ -286,4 +287,17 @@
         }
         
       }
+      @keyframes tm {
+
+        from{
+            height: 0;
+        background-color: #FAF6F0;
+    
+        }
+        to{
+            height:240px;
+        background-color: #FAF6F0;
+            
+        }
+    }
   }

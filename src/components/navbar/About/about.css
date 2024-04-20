@@ -1,0 +1,39 @@
+.abt{
+    position:absolute;
+    top:115%;
+    right:15%; 
+    width:60%;
+    display:grid;
+    grid-template-columns: 1fr 330px;
+    gap: 10px;
+}
+.content{
+    padding:9%;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+.pic{
+    width:328px;
+    height:364px;
+    border: 19px solid rgb(255, 255, 255);
+    box-shadow: 3px 3px 2px;
+}
+
+
+@media screen and (max-width:750px) {
+
+    .abt{
+        width:100%;
+    right:0%; 
+    display:flex;
+    flex-direction:column-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+
+    }
+    .pic{
+        width:215px;
+        height:243px;
+        border: 9px solid rgb(255, 255, 255);
+    }
+}

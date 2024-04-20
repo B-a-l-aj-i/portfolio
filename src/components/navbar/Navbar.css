@@ -14,11 +14,13 @@
     padding-top:2%;
     margin: 0;
     background-color: #fae9d7;
+    padding-bottom:3000px;
   }
 .navBar{
     display: flex;
     padding: 12px;
     width:85%;
+    align-items: center;
     justify-content: space-between;
     border-radius:80px;
     height:40px;
@@ -36,11 +38,11 @@
 }
 
 
-.title h2{
-    font-size:2.5rem;
+.title p{
+    font-size:1.4rem;
     margin:0px;
-    font-weight: 100;
     vertical-align: middle;
+    font-weight: 100;
     font-family: "JetBrains Mono", monospace;
 }
 .lists{
