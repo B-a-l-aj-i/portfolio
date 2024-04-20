@@ -23,15 +23,13 @@
 @media screen and (max-width:750px) {
 
     .abt{
-    top:115%;
-
+    top:111%;
     width:100%;
     right:0%; 
     display:flex;
     flex-direction:column-reverse;
     flex-wrap: wrap;
     align-items: center;
-
     }
     .pic{
         width:215px;
