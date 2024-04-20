@@ -14,7 +14,7 @@ function About(){
             </p>
             </article>
             <aside className="dp">
-                <img className="pic" src={pic} />
+                <img className="pic" src={pic} alt="pic"/>
             </aside>
         </div>
     )
