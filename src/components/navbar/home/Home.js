@@ -18,7 +18,7 @@ import js from "./imgs/fa-brands--js.png"
 
 function Home(){
     return(
-     <main className="all">   
+     <main  id="home" className="all">   
         <section className="info">
 
             <div className="name">

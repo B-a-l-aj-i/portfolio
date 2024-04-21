@@ -4,7 +4,7 @@ import "./about.css"
 function About(){
 
     return(
-        <div className="abt">
+        <div id="about" className="abt">
             <article className="content">
             <h3>About</h3>    
             <p>I am an aspiring Frontend developer with a passion for creating user-friendly websites and I am

@@ -1,19 +1,18 @@
 import "./Navbar.css"
 import ham from "./home/imgs/solar--hamburger-menu-bold.png"
 
-
 function Navbar(){
 
     return(
         
-        <nav className="navBar">
+        <nav  className="navBar">
         <div className="title">
         <a href="https://master--b-a-l-aj-i.netlify.app/" rel="noreferrer" style={{textDecoration:'none'}}><p>b-a-l-aj-i</p></a>
         </div>
 
             <ul className="lists">
-                <li className="li1">Home</li>
-                <li className="li2">About</li>
+               <a href="#home"> <li className="li1">Home</li></a>
+               <a href="#about"> <li className="li2">About</li></a>
                 <li className="li3">Projects</li>
                 <li className="li4">Contact</li>
 
