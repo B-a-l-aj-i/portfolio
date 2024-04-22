@@ -2,15 +2,16 @@
 .abt{
     position:absolute;
     top:90%;
-    right:15%; 
-    width:60%;
+    right:5%; 
+    max-width:80%;
     padding-top:5%;
     display:grid;
     grid-template-columns: 1fr 330px;
     gap: 10px;
 }
 .content{
-    padding:9%;
+    padding:7%;
+    padding-right: 0;
     border: 1px solid black;
     border-radius: 30px;
 }
@@ -25,10 +26,10 @@
 @media screen and (max-width:750px) {
 
     .abt{
-    top:111%;
+        position: absolute;
+    top:100%;
     width:100%;
     padding-top:17%;
-    right:4px; 
     display:flex;
     flex-direction:column-reverse;
     flex-wrap: wrap;
