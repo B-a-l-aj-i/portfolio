@@ -125,7 +125,7 @@
         border-radius:10px;
         color:white;
     }
-    /* .li1{
+     .li1{
         animation: li 1s forwards;
 
     }
@@ -143,7 +143,7 @@
     }
     .li5:hover .lists{
         display: none;
-    } */
+    } 
     
     @keyframes li {
 
@@ -161,8 +161,9 @@
         display: flex;
     }
     .navBar:hover{
+        position: fixed;
         border-radius: 10px;
-        position: absolute;
+        /* position: absolute; */
         width:90%;
         height:200px;
         z-index: 10;
