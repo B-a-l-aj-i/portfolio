@@ -11,14 +11,14 @@
      } */
  body{
     padding-left:17%;
-    padding-top:2%;
-    margin: 0;
+    padding-top:70px;
     background-color: #fae9d7;
     padding-bottom:3000px;
   }
 .navBar{
     position: fixed;
-    z-index: 99;
+    top: 0%;
+    z-index: 9999;
     display: flex;
     padding: 12px;
     width:70%;
@@ -113,7 +113,7 @@
     }
     
     body {
-        padding-left: 5%;
+        padding-left: 2%;
     }
     
     .lists li {
@@ -162,8 +162,8 @@
     }
     .navBar:hover{
         position: fixed;
+         top: 0%;
         border-radius: 10px;
-        /* position: absolute; */
         width:90%;
         height:200px;
         z-index: 10;

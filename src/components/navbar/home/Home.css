@@ -1,6 +1,8 @@
+
 .all{
     position:absolute;
-    top: 25%;
+    padding-top:10%;
+    top: 0%;
     left: 20%;
     display: grid;
     gap: 60px;
@@ -227,7 +229,8 @@
         width:85%;
     }
     .all{
-        top:13%;
+        padding-top:20%;
+        top:0%;
         gap: 0;
         left:5%;
     }
