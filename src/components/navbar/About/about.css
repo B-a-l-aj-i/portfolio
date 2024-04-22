@@ -15,7 +15,6 @@
 .pic{
     width:278px;
     height:343px;
-    /* border: 19px solid rgb(255, 255, 255); */
     box-shadow: 5px 3px 23px;
     border-radius: 22px;
 }
@@ -24,7 +23,7 @@
 @media screen and (max-width:750px) {
 
     .abt{
-    /* top:111%; */
+    top:111%;
     width:100%;
     right:4px; 
     display:flex;
@@ -34,7 +33,7 @@
     }
     .pic{
         width:100%;
-        height:230px;
+        /* height:230px; */
         border-radius: 96px;
     }
 }
