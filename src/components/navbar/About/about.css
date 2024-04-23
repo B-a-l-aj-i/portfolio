@@ -1,3 +1,8 @@
+#about{
+    gap: 10px;
+    display:grid;
+    grid-template-columns: 1fr 330px;
+}
 
 .abt{
     position:absolute;
@@ -7,11 +12,6 @@
     padding-top:5% ;
 }
 
-#about{
-    gap: 10px;
-    display:grid;
-    grid-template-columns: 1fr 330px;
-}
 .content{
     font-size: 1.1rem;
     padding:7%;

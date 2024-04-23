@@ -12,7 +12,7 @@ function Navbar(){
 
             <ul className="lists">
                <a href="#home"> <li className="li1">Home</li></a>
-               <a href="#about"> <li className="li2">About</li></a>
+               <a href="#ab"> <li className="li2">About</li></a>
               <a href="#home">  <li className="li4">Contact</li></a>
                <a href="#projects"> <li className="li3">Projects</li></a>
 

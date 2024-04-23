@@ -4,7 +4,7 @@ import "./about.css"
 function About(){
 
     return(
-        <section className="abt">
+        <section id="ab" className="abt">
             <center><p className="p" >About</p></center>
             <div id="about">
             <article className="content">
