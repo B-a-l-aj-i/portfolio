@@ -17,7 +17,7 @@ function Projects(){
 
                <div className="card">
                   <div className="cardpic">
-                  <img src={todo} />
+                  <img src={todo} alt="imgs" />
                   </div>
                  <div className="desc">
                  <p>TODO-LIST</p>
@@ -28,7 +28,7 @@ function Projects(){
 
                <div className="card">
                <div className="cardpic">
-                  <img src={yt} />
+                  <img src={yt}  alt="imgs"/>
                   </div>
                   <div className="desc">
                   <p>YOUTUBE-CLONE</p>
@@ -39,7 +39,7 @@ function Projects(){
                </div>
                <div className="card">
                <div className="cardpic">
-                  <img src={ai}/>
+                  <img src={ai} alt="imgs"/>
                   </div>
                   <div className="desc">
                   <p>SEARCH-AI</p>
@@ -49,7 +49,7 @@ function Projects(){
                </div>
                <div className="card">
                <div className="cardpic">
-                  <img src={wai}/>
+                  <img src={wai} alt="imgs"/>
                   </div>
                   <div className="desc">
                   <p>WHERE-AM-I</p>
@@ -58,7 +58,7 @@ function Projects(){
                </div>
                <div className="card">
                <div className="cardpic">
-                  <img src={ld}/>
+                  <img src={ld}  alt="imgs"/>
                   </div>
                   <div className="desc">
                   <p>LUCKY-DICER</p>
