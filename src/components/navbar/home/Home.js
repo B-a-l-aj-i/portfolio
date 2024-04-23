@@ -43,8 +43,7 @@ function Home(){
 </section>
 
 <section className="techstack">
-<p className="heading">TECH_STACK </p>
-
+<center><p className="heading">TECH_STACK </p> </center>
 <main className="techimages">
 <figure  className="logos">
 

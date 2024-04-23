@@ -1,13 +1,13 @@
 
  body{
-    padding-left:17%;
+    padding-left:15%;
     padding-top:70px;
     background-color: #fae9d7;
     padding-bottom:3000px;
   }
 .navBar{
     position: fixed;
-    top: 0%;
+    top:2%;
     z-index: 9999;
     display: flex;
     padding: 12px;

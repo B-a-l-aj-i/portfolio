@@ -2,7 +2,7 @@
 
 .box{
     position:absolute;
-    right:48%; 
+    right:47%; 
     bottom:4%;
     width: 30px;
     height:30px;
@@ -15,10 +15,10 @@
     cursor: pointer;
 }
 
-.box::after {
+.box:after {
     transform: translateX(9px) translateY(6px) rotate(-45deg);
      display: block; 
-    width:10px;
+    width:10px !important;
     height: 10px;
     content: "";
     border: 2px solid black;

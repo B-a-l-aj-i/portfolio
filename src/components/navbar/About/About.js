@@ -4,9 +4,10 @@ import "./about.css"
 function About(){
 
     return(
-        <div id="about" className="abt">
+        <section className="abt">
+            <center><p className="p" >About</p></center>
+            <div id="about">
             <article className="content">
-            <h3>About</h3>    
             <p>I am an aspiring Frontend developer with a passion for creating user-friendly websites and I am
             quite familiar with some web technologies I am looking for an internship where I can leverage my
             skills and implement my knowledge in the real world. I aim to learn from experienced
@@ -18,7 +19,8 @@ function About(){
             <aside className="dp">
                 <img className="pic" src={pic} alt="pic"/>
             </aside>
-        </div>
+            </div>
+        </section>
     )
 }
 

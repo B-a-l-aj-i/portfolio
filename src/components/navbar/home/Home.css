@@ -3,7 +3,7 @@
     position:absolute;
     padding-top:10%;
     top: 0%;
-    left: 20%;
+    left: 19%;
     display: grid;
     gap: 60px;
 }
@@ -68,18 +68,17 @@
       
     }
 
-
     .heading:before{
-        content:" ";
+        content:"";
         display: block;
         height:1px;
         background: rgb(41, 41, 41);
         position: absolute;
         top:50%;
-        left:10%;
+        left: 10%;
       }
     .heading:after{
-        content:" ";
+        content:"";
         height:1px;
         background: rgb(66, 66, 66);
         display: block;
@@ -87,9 +86,8 @@
         top:50%;
         right:10%;
       }
-.heading:after,
-::before{
-    animation: tech  2s  alternate forwards;
+.heading:before,:after{
+    animation: tech  2s  linear forwards;
 }
   @keyframes tech{
     from{
@@ -110,9 +108,6 @@
     }
     
   }
-
-
-
   .techimages img{
     width: 30px;
     height:30px;
@@ -215,7 +210,9 @@
 
     }
     .heading{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
+        font-weight:500;
+        color: #000;
     }
     .heading::after{
         right:-7%;
@@ -226,7 +223,7 @@
         from{
             width: 0;
         }to{
-            width:115px;
+            width:105px;
         }
       }
     @keyframes border {

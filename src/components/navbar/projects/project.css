@@ -4,16 +4,15 @@
     flex-wrap: wrap;
     padding-top:5%;
     position: absolute;
-    top: 150%;
-    max-width:70%;
-    min-height:300px;
-   
+    top: 160%;
+    max-width:75%;
 }
 .p{
     position: relative;
     font-size:1.7rem;
+    margin-right: 0;
 }
-.p::after{
+.p:after{
     content: "";
     height: 5px;
     background-color: rgb(255, 124, 124);
@@ -23,7 +22,7 @@
     left:0%;
     border-radius: 50%;
 }
-.p::before{
+.p:before{
     content: "";
     height: 5px;
     background-color:rgb(255, 124, 124);
@@ -35,19 +34,19 @@
 }
 
 .p:after,
-::before{
+:before{
     animation: teh  2s linear forwards;
 }
   @keyframes teh{
     from{
         width: 0;
     }to{
-        width: 350px;
+        width: 750px;
     }
   }
 
 .allcards{
-    padding:2%;
+    padding:5%;
     min-height: 300px;
     border: 1px solid rgb(70, 70, 70);
     border-radius:20px;
@@ -111,4 +110,11 @@
         .allcards{
             padding:5%;
         }
+        @keyframes teh{
+            from{
+                width: 0;
+            }to{
+                width:100px;
+            }
+          }
 }
