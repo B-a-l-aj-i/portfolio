@@ -3,16 +3,17 @@
 .box{
     position:absolute;
     top:85%;
-    left: 50%;
+    right: 50%;
     width: 50px;
     height:50px;
     transform: translateY(0px);
     transition: 0.5s;
     margin-top: 0;
-    animation: jump 0.7s 0.5s  alternate-reverse infinite;
+    animation: jump 0.5s 0.1s  alternate-reverse infinite;
 }
 
 .box span{
+    margin-inline: auto;
     font-size:3rem;
 }
 
@@ -22,6 +23,6 @@
   
     }    
     to{
-        transform: translateY(40px);
+        transform: translateY(30px);
     }
 }
