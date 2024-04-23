@@ -3,9 +3,10 @@ import  './ani.css'
 
 function Ani(){
     return(
-      <div className='box'> 
-      {/* <span>🔻</span> */}
-      </div>
+    
+    <div className='box'> 
+    <a href='#About'> </a>
+    </div>
     )
 }
 
