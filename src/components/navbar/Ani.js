@@ -4,7 +4,7 @@ import  './ani.css'
 function Ani(){
     return(
       <div className='box'> 
-      <span>🔻</span>
+      {/* <span>🔻</span> */}
       </div>
     )
 }
