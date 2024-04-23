@@ -1,14 +1,4 @@
-     /* *{
-        animation: ev 1s forwards;
-     }
-     @keyframes ev {
-        from{
-            opacity: 0;
-        }        
-        to{
-            opacity: 1;
-        }
-     } */
+
  body{
     padding-left:17%;
     padding-top:70px;
@@ -108,7 +98,6 @@
         font-size: 1rem;
         flex-direction: column;
         align-items: center;
-        /* transform: translateY(-16px); */
         justify-content: space-evenly;
     }
     
@@ -153,9 +142,6 @@
         }
         
     }
-    /* .hide{
-        opacity:0;
-    } */
 
     .navBar:hover .lists{
         display: flex;

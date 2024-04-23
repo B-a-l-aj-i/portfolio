@@ -1,0 +1,27 @@
+
+
+.box{
+    position:absolute;
+    top:85%;
+    left: 50%;
+    width: 50px;
+    height:50px;
+    transform: translateY(0px);
+    transition: 0.5s;
+    margin-top: 0;
+    animation: jump 0.7s 0.5s  alternate-reverse infinite;
+}
+
+.box span{
+    font-size:3rem;
+}
+
+@keyframes jump {
+    from{
+        transform: translateY(0px);
+  
+    }    
+    to{
+        transform: translateY(40px);
+    }
+}
