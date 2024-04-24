@@ -81,19 +81,18 @@
     width: 100% ;
     height: 100%;
     object-fit:cover;
-    /* opacity: 1; */
-    transition: 1s;
 }
 .cont{
     position:relative;
     bottom:100%;
     opacity: 0;
-    transition: 2s;
+
 }
 
 .card:hover{
     background-color:  #1a1a1a;
     border: 9px solid  #1a1a1a;
+    /* transition:linear; */
     color:  #ffffff;
     .cont{
         transition: 1s;
@@ -122,8 +121,9 @@
 }
 .more:hover{
     border: 3px solid rgb(255, 0, 0);
-    transition:0.5s;
+    transition:1s;
     background-color: white;
+
     color: black;
 }
 
