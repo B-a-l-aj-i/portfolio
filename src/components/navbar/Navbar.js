@@ -1,5 +1,5 @@
 import "./Navbar.css"
-import ham from "./mdi--hamburger-menu-back.png"
+import ham from "./charm--menu-hamburger.png"
 
 function Navbar(){
 
