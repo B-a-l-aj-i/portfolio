@@ -1,0 +1,56 @@
+#contact{
+    padding-top:5%;
+    position: absolute;
+    top:270%;
+    left:30%;
+    margin: auto;
+}
+
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-evenly;
+}
+.pea{
+    gap: 5px;
+    display:flex;
+}
+.pea img{
+    width: 20px;
+    object-fit: contain;
+}
+.contact-ips{
+    padding:2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-radius:20px ;
+
+}
+
+.contact-ips input{
+    outline: none;
+    padding: 3%;
+    width:310px;
+    height:30px;
+    border-radius:20px ;
+    border: none;
+    outline: none;
+}
+.contact-ips textarea{
+    padding: 4%;
+    width:310px;
+    height:110px;
+    border-radius:20px ;
+    border: none;
+
+}
+
+@media  screen and (max-width:760px) {
+    #contact{
+        top:660%;
+        left: 0;
+    }    
+}

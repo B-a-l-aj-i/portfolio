@@ -1,8 +1,9 @@
 import Navbar from "./components/navbar/Navbar"
-import Home from "./components/navbar/home/Home"
-import Ani from "./components/navbar/Ani"
-import About from "./components/navbar/About/About"
-import Projects from "./components/navbar/projects/project"
+import Home from "./components/home/Home"
+import Ani from "./components/animation/Ani"
+import About from "./components/About/About"
+import Projects from "./components/projects/project"
+import Contact from "./components/contact/contact"
 import { Fragment } from "react"
 function App(){
 
@@ -15,6 +16,7 @@ function App(){
        <Ani/>
        <About />
        <Projects />
+       <Contact/>
         </Fragment>
     )
 }

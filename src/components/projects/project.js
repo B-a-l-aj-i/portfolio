@@ -71,10 +71,10 @@ function Projects(){
 
                <div className="card">
                   <div className="cardpic">
-                  <img src={find} alt="imgs" />
+                  <img src={find} alt="imgs"  style={{objectFit:'fill'}} />
                   </div>
                  <div className="desc">
-                 <p>TODO-LIST</p>
+                 <p>FIND-IMAGES</p>
                  <button className="more">more</button>
                  </div>
                </div>
