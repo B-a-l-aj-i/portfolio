@@ -1,9 +1,7 @@
 
 
 .box{
-    position:absolute;
-    right:47%; 
-    bottom:4%;
+    margin: 0 auto;
     width: 30px;
     height:30px;
     transform: translateY(0px);
@@ -46,5 +44,6 @@
     to{
         transform: translateY(10px);
         opacity: 1;
+
     }
 }

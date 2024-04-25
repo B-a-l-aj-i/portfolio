@@ -11,9 +11,7 @@ function About(){
             <p>I am an aspiring Frontend developer with a passion for creating user-friendly websites and I am
             quite familiar with some web technologies I am looking for an internship where I can leverage my
             skills and implement my knowledge in the real world. I aim to learn from experienced
-            professionals and gain hands-on experience in web development. I aim to learn from experienced
-            professionals and gain hands-on experience in web development. I aim to learn from experienced
-            professionals and gain hands-on experience in web development.
+            professionals and gain hands-on experience in web development
             </p>
             </article>
             <aside className="dp">

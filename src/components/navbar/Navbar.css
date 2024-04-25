@@ -1,22 +1,24 @@
 
  body{
-    padding-left:15%;
-    padding-top:70px;
+    margin: 0;
+    padding: 0;
+    padding-top:90px; 
     background-color: #fae9d7;
-  }
+}
 .navBar{
     position: fixed;
-    top:2%;
+    top: 1%;
+    left: 20%;
+    right: 20%;
     z-index: 9999;
     display: flex;
-    padding: 12px;
-    width:70%;
-    align-items: center;
     justify-content: space-between;
-    border-radius:80px;
-    height:40px;
+    align-items: center;
+    flex-wrap:wrap;
+    padding:0.5% 1%;
     background-color:#fbf9f7;
-    animation: nav 1s forwards;
+    border-radius:50px;
+
 }
 
 @keyframes nav {
@@ -30,23 +32,24 @@
 
 
 .title p{
+    margin: 0 auto;
     font-size:1.4rem;
-    margin:0px;
     vertical-align: middle;
     font-weight: 100;
     font-family: "JetBrains Mono", monospace;
 }
 .lists{
     display: flex;
-    width: 400px;
+    flex-wrap: wrap;
+    gap:30px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    animation: nav 1s forwards;
 }
 
 .lists li {
     cursor: pointer;
     list-style: none;
-    display: inline;
 }
 .lists a{
     text-decoration: none;
@@ -59,41 +62,18 @@
     font-weight: lighter;
     display: none;
 }
-@media screen and (max-width:750px){
-
-    .navBar::before{
-        content:"";
-        display: none;
-        height:0.7px;
-        width:35px;
-        background: rgb(41, 41, 41);
-        position: absolute;
-        top:54%;
-        left:55%;
-      }
-
-    body{
-        background-color: #f9eaea;
+@media screen and (max-width:760px){
+    .navBar{
+        padding: 3px;
+        top: 4px;
+        left: 2%;
     }
+
     .ham {
         display: inline;
     }
-    
-    .navBar {
-        display: flex;
-        width:90%;
-        padding: 1%;
-    }
-    
-    .title h2 {
-        font-size: 1.2rem;
-        margin: 10px;
-    }
-    
     .lists {
         display: none;
-        width: 100px;
-        height: 200px;
         font-size: 1rem;
         flex-direction: column;
         align-items: center;
@@ -105,8 +85,7 @@
     }
     
     .lists li {
-        height: 30px;
-        width: 100%;
+        width: 100px;
         padding:3%;
         text-align:center;
         background-color: rgb(221, 148, 255);
@@ -134,7 +113,6 @@
     } 
     
     @keyframes li {
-
         from{
             
             transform: translatex(100px);
@@ -143,16 +121,12 @@
     }
 
     .navBar:hover .lists{
-        display: flex;
+        display:grid;
     }
     .navBar:hover{
-        position: fixed;
-         top: 0%;
+        flex-wrap: wrap;
         border-radius: 10px;
-        width:90%;
-        height:200px;
-        z-index: 10;
-        transition: 2s;
+        transition: 1s;
     }
     .navBar:hover .ham{
         display:none;

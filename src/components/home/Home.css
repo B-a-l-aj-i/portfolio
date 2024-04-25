@@ -1,20 +1,19 @@
 
 .all{
-    position:absolute;
-    padding-top:10%;
-    top: 0%;
-    left: 19%;
+    padding-top:6%;
     display: grid;
-    gap: 60px;
+    gap: 60px;;
 }
 .info{
-    display: grid;
+    margin: 0 auto;
+    display:grid;
     grid-template-columns: 1fr 1fr;
 }
 
 .name{
-    width:600px;
-    animation: border 2.2s forwards;
+    margin: 0 auto;
+    padding: 5%;
+    animation: border 100ms 0.3s forwards;
 }
 
 
@@ -25,8 +24,8 @@
 
 .name h2{
     font-weight:100;
-    font-size:2rem;
-    letter-spacing:3px;
+    font-size: 1.3rem;
+
 }
 
 
@@ -44,28 +43,24 @@
 }
 
 .detail{
-    padding: 5%;
-    opacity: 0;
-    animation: detail 1.5s forwards;
+    margin: 0 auto;
+    padding-top:10%;
+    animation: detail 1s ease-in forwards;
 }
 
 .imgs{
     cursor: pointer;
-    gap: 5%;
+    gap:5%;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
 }
 
 
   .heading{
-      font-weight: lighter;
       font-size: 2rem;
-      position: relative;
-      left:-10%;
-      text-align: center;
       color:#44567c;
-
-      
     }
 
     .heading:before{
@@ -74,61 +69,68 @@
         height:1px;
         background: rgb(41, 41, 41);
         position: absolute;
-        top:50%;
-        left: 10%;
+        left: 25%;
+        top: 50%;
       }
     .heading:after{
         content:"";
         height:1px;
         background: rgb(66, 66, 66);
         display: block;
-        position: absolute;
-        top:50%;
-        right:10%;
+        position:absolute;
+        right: 25%;
+        top: 50%; 
       }
-.heading:before,:after{
+.heading:before{
+    animation: tech  2s  linear forwards;
+}
+.heading:after{
     animation: tech  2s  linear forwards;
 }
   @keyframes tech{
     from{
         width: 0;
     }to{
-        width: 350px;
+        /* width:15vw; */
     }
   }
 
   @keyframes detail {
 
     from{
-        transform: translatey(60px);
+        transform: translatex(-50px);
         opacity: 0;
     }to{
-        transform: translatex(0px);
+        z-index: -1;
+        transform: translatex(40px);
         opacity:1;
     }
     
   }
   .techimages img{
-    width: 30px;
-    height:30px;
+    width:25px;
+    height:25px;
 }
 
 .techimages{
-    max-width:85%;
+    margin: 0 auto;
+    max-width:900px;
     border-radius: 25px;
     display: flex;
     flex-wrap: wrap;
+    justify-content:space-evenly;
     animation: tm 2s 1.5s forwards;
+    min-height:0%;
+
 }
 @keyframes tm {
-
     from{
-        height: 0;
+    height: 0;
     background-color: #FAF6F0;
 
     }
     to{
-        height:200px;
+    height:60%;
     background-color: #FAF6F0;
         
     }
@@ -149,18 +151,59 @@
   @keyframes border {
 
     from{
-        border-right:0.001px solid black ;
+       
         border: none;
     }
     to{
-        border-right:2px solid black ;
+        z-index: 1;
+        border-right:1px solid black ;
     }
     
   }
 
-
-
   @media screen and (max-width:750px){
+    .imgs{
+        flex-wrap: nowrap;
+    }
+    .all{
+        gap:30px;
+    }
+    .info{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+    .name{
+        padding: 2%;
+    }
+    .name h2{
+        font-size:1rem;
+    }
+    @keyframes border {
+
+        from{
+            border-bottom:0.000px solid black ;
+            border: none;
+        }
+        to{
+            border-bottom:1px solid black ;
+        }
+        
+      }
+      @keyframes detail {
+
+        from{
+            transform: translatey(-60px);
+            opacity: 0;
+        }to{
+            transform: translatex(0px);
+            opacity:1;
+        }
+        
+      }
+  }
+
+/* 
     .logos{
         background-color: #f9eaea;
     }
@@ -194,10 +237,6 @@
         width:85%;
     }
     .all{
-        padding-top:20%;
-        top:0%;
-        gap: 0;
-        left:5%;
     }
     .info{
         font-weight: lighter;
@@ -226,17 +265,7 @@
             width:105px;
         }
       }
-    @keyframes border {
-
-        from{
-            border-bottom:0.001px solid black ;
-            border: none;
-        }
-        to{
-            border-bottom:2px solid black ;
-        }
-        
-      }
+    
    
       @keyframes tech{
         from{
@@ -269,4 +298,4 @@
             
         }
     }
-  }
+  } */

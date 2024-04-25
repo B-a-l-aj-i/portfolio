@@ -23,7 +23,7 @@ function Home(){
 
             <div className="name">
                 <h1><span style={{fontSize:'20px',fontWeight:'normal'}}>Hey,i'm </span>  Balaji</h1>
-                <h2 >juniorFRONTENDdeveloper</h2>
+                <h2 >junior<strong>Frontend</strong>developer</h2>
             </div>
 
             <div className="detail"> 
@@ -43,7 +43,7 @@ function Home(){
 </section>
 
 <section className="techstack">
-<center><p className="heading">TECH_STACK </p> </center>
+<center><p className="heading">Tech_Stack </p> </center>
 <main className="techimages">
 <figure  className="logos">
 
