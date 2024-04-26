@@ -63,6 +63,10 @@
     display: none;
 }
 @media screen and (max-width:760px){
+    body{
+    background-color: #fae9d7;
+
+    }
     .navBar{
         padding: 3px;
         top: 4px;
