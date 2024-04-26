@@ -1,7 +1,9 @@
 #about{
+    margin: 0 auto;
     gap: 10px;
     display:grid;
-    grid-template-columns: 1fr 330px;
+    grid-template-columns: 1fr .2fr ;
+
 }
 
 .abt{
@@ -9,6 +11,7 @@
     max-width:79%;
     padding-top:5% ;
 }
+
 
 .content{
     font-size: 1.1rem;
@@ -33,7 +36,7 @@
         flex-direction: column-reverse;
     }
     .pic{
-        max-width:100%;
-        border-radius: 96px;
+        width:50%;
+        height:50%;
     }
 }
