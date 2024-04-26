@@ -169,6 +169,7 @@
         gap:30px;
     }
     .info{
+       
         display: grid;
         grid-template-columns: 1fr;
         
@@ -201,6 +202,12 @@
         }
         
       }
+  }
+  @media screen and (max-width:400px) {
+    .info{
+         margin-left:5%;
+    }
+    
   }
 
 /* 
