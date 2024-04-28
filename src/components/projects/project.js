@@ -19,9 +19,7 @@ function Projects(){
                   <div className="cardpic">
                   <img src={todo} alt="imgs" />
                   <article className="cont">
-                  I am an aspiring Frontend developer with a passion for creating user-friendly websites and 
-                  I am quite familiar with some web technologies 
-                  I am looking for an internship where I can leverage my skills and implement my knowledge in the real
+                   As usual a basic todo-list,you add taks and and remove them and it my first project 
                   </article>
                   </div>
                  <div className="desc">
@@ -35,10 +33,8 @@ function Projects(){
                <div className="cardpic">
                   <img src={yt}  alt="imgs"/>
                   <article className="cont">
-                  I am an aspiring Frontend developer with a passion for creating user-friendly websites and 
-                  I am quite familiar with some web technologies 
-                  I am looking for an internship where I can leverage my skills and implement my knowledge in the real
-                  </article>
+                   it not the complete clone of youtube it has only single page in it and responsive todo 
+                   </article>
                   </div>
                   <div className="desc">
                   <p>YOUTUBE-CLONE</p>
