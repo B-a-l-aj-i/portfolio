@@ -32,8 +32,8 @@ function Home(){
               <div className="imgs">
 
                 <a href="https://github.com/B-a-l-aj-i" target="_blank"  rel="noreferrer"><img src={github} alt="gitHub" width={40} height={40} /></a>
-                <a href="resume.pdf" download="resume.pdf" > <button  className="btn"> Resume </button></a> 
                 <a href="https://www.linkedin.com/in/balaji-m-400bb4249/" target="_blank"  rel="noreferrer"><img src={linkedin} alt="linkedin" width={35} height={35} /></a>
+                <a href="resume.pdf" download="resume.pdf" > <button  className="btn"> Resume </button></a> 
             </div>
             </div>
 

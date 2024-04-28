@@ -52,7 +52,7 @@
     cursor: pointer;
     gap:5%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -169,7 +169,7 @@
         font-size: 18px;
     }
     .imgs{
-        flex-wrap: nowrap;
+        /* flex-wrap: nowrap; */
     }
     .all{
         padding-top: 27%;
@@ -180,11 +180,6 @@
         display: grid;
         grid-template-columns: 1fr;
         
-    }
-    .btn{
-        font-size: 1rem;
-        height: 30px;
-        width:90px;
     }
     .name{
         padding: 2%;
