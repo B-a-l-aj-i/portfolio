@@ -64,7 +64,7 @@
 }
 @media screen and (max-width:760px){
     body{
-       background-color:rgb(250, 233, 215) !important;
+       background-color:rgb(255, 250, 245) !important;
            }
     .navBar{
         padding: 3px;

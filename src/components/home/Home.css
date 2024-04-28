@@ -168,9 +168,6 @@
     .name h2{
         font-size: 18px;
     }
-    .imgs{
-        /* flex-wrap: nowrap; */
-    }
     .all{
         padding-top: 27%;
         gap:30px;
