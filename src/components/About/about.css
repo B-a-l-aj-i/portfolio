@@ -1,5 +1,4 @@
 #about{
-    margin: 0 auto;
     gap: 10px;
     display:grid;
     grid-template-columns: 1fr .2fr ;
@@ -39,15 +38,12 @@
     }
     .content{
         line-height: 1.7rem;
+        max-width:100vw;
     }
     #about{
-        width:100vw;
         gap: 10px;
         display: flex;
         flex-direction: column-reverse;
-    }
-    .abt{
-        margin-left:0px ;
     }
     .pic{
         width:70%;
