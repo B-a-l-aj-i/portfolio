@@ -33,15 +33,18 @@
 
 
 @media screen and (max-width:750px) {
-
+    .content{
+        width: 100%;
+        line-height: 1.5rem;
+    }
     #about{
         gap: 10px;
         display: flex;
         flex-direction: column-reverse;
     }
     .pic{
-        width:50%;
-        height:50%;
+        width:60%;
+        height:60%;
     }
     .dp{
         display: ruby;
