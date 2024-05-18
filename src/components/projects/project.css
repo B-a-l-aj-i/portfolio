@@ -87,7 +87,7 @@
 
 }
 
-.card:hover{
+/* .card:hover{
     background-color:  #1a1a1a;
     border: 9px solid  #1a1a1a;
     color:  #ffffff;
@@ -99,7 +99,7 @@
         opacity: 0.1;
         transition: 1s;
     }
-}
+} */
 
 .desc{
     display: flex;
