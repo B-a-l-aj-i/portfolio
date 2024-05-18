@@ -54,7 +54,6 @@ function Projects(){
                   <div className="desc">
                   <p>SEARCH-AI</p>
                   <a href="https://github.com/B-a-l-aj-i"><button className="more">visit</button></a>
-
                  </div>
                </div>
                <div className="card">
