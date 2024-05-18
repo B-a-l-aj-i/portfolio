@@ -24,7 +24,7 @@ function Projects(){
                   </div>
                  <div className="desc">
                  <p>TODO-LIST</p>
-                 <a href="https://github.com/B-a-l-aj-i/TODO-list"><button className="more">more</button></a>
+                 <a href="https://github.com/B-a-l-aj-i/TODO-list"><button className="more">visit</button></a>
                  </div>
                </div>
 
@@ -38,8 +38,7 @@ function Projects(){
                   </div>
                   <div className="desc">
                   <p>YOUTUBE-CLONE</p>
-                  <a href="https://github.com/B-a-l-aj-i"><button className="more">more</button></a>
-
+                  <a href="https://github.com/B-a-l-aj-i"><button className="more">visit</button></a>
                  </div>
 
                </div>
@@ -54,7 +53,7 @@ function Projects(){
                   </div>
                   <div className="desc">
                   <p>SEARCH-AI</p>
-                  <a href="https://github.com/B-a-l-aj-i"><button className="more">more</button></a>
+                  <a href="https://github.com/B-a-l-aj-i"><button className="more">visit</button></a>
 
                  </div>
                </div>
@@ -69,7 +68,7 @@ function Projects(){
                   </div>
                   <div className="desc">
                   <p>WHERE-AM-I</p>
-                  <a href="https://github.com/B-a-l-aj-i"><button className="more">more</button></a>
+                  <a href="https://github.com/B-a-l-aj-i/Where-am-I"><button className="more">visit</button></a>
                  </div>
                </div>
 
@@ -84,7 +83,7 @@ function Projects(){
                   </div>
                   <div className="desc">
                   <p>LUCKY-DICER</p>
-                  <a href="https://github.com/B-a-l-aj-i/LuckyDicer"><button className="more">more</button></a>
+                  <a href="https://github.com/B-a-l-aj-i/LuckyDicer"><button className="more">visit</button></a>
                  </div>
                </div>
 
@@ -99,7 +98,7 @@ function Projects(){
                   </div>
                  <div className="desc">
                  <p>FIND-IMAGES</p>
-                 <a href="https://github.com/B-a-l-aj-i/LuckyDicer"><button className="more">more</button></a>
+                 <a href="https://github.com/B-a-l-aj-i/LuckyDicer"><button className="more">visit</button></a>
                  </div>
                </div>
              </main>
