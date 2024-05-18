@@ -38,12 +38,14 @@
     }
     .content{
         line-height: 1.7rem;
-        max-width:100vw;
     }
     #about{
         gap: 10px;
         display: flex;
         flex-direction: column-reverse;
+    }
+    .abt{
+        max-width: 100%;
     }
     .pic{
         width:70%;
