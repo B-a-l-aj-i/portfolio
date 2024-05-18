@@ -24,7 +24,7 @@ function Projects(){
                   </div>
                  <div className="desc">
                  <p>TODO-LIST</p>
-                 <button className="more">more</button>
+                 <a href="http//github.com"><button className="more">more</button></a>
                  </div>
                </div>
 
@@ -38,7 +38,7 @@ function Projects(){
                   </div>
                   <div className="desc">
                   <p>YOUTUBE-CLONE</p>
-                 <button className="more">more</button>
+                  <a href="http//github.com"><button className="more">more</button></a>
 
                  </div>
 
@@ -54,7 +54,7 @@ function Projects(){
                   </div>
                   <div className="desc">
                   <p>SEARCH-AI</p>
-                 <button className="more">more</button>
+                  <a href="http//github.com"><button className="more">more</button></a>
 
                  </div>
                </div>
@@ -69,7 +69,7 @@ function Projects(){
                   </div>
                   <div className="desc">
                   <p>WHERE-AM-I</p>
-                 <button className="more">more</button>
+                  <a href="http//github.com"><button className="more">more</button></a>
                  </div>
                </div>
 
@@ -84,8 +84,7 @@ function Projects(){
                   </div>
                   <div className="desc">
                   <p>LUCKY-DICER</p>
-                 <button className="more">more</button>
-
+                  <a href="http//github.com"><button className="more">more</button></a>
                  </div>
                </div>
 
@@ -100,7 +99,7 @@ function Projects(){
                   </div>
                  <div className="desc">
                  <p>FIND-IMAGES</p>
-                 <button className="more">more</button>
+                 <a href="http//github.com"><button className="more">more</button></a>
                  </div>
                </div>
              </main>
