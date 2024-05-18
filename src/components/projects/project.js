@@ -24,7 +24,7 @@ function Projects(){
                   </div>
                  <div className="desc">
                  <p>TODO-LIST</p>
-                 <a href="http//github.com"><button className="more">more</button></a>
+                 <a href="https://github.com/B-a-l-aj-i/TODO-list"><button className="more">more</button></a>
                  </div>
                </div>
 
@@ -38,7 +38,7 @@ function Projects(){
                   </div>
                   <div className="desc">
                   <p>YOUTUBE-CLONE</p>
-                  <a href="http//github.com"><button className="more">more</button></a>
+                  <a href="https://github.com/B-a-l-aj-i"><button className="more">more</button></a>
 
                  </div>
 
@@ -54,7 +54,7 @@ function Projects(){
                   </div>
                   <div className="desc">
                   <p>SEARCH-AI</p>
-                  <a href="http//github.com"><button className="more">more</button></a>
+                  <a href="https://github.com/B-a-l-aj-i"><button className="more">more</button></a>
 
                  </div>
                </div>
@@ -69,7 +69,7 @@ function Projects(){
                   </div>
                   <div className="desc">
                   <p>WHERE-AM-I</p>
-                  <a href="http//github.com"><button className="more">more</button></a>
+                  <a href="https://github.com/B-a-l-aj-i"><button className="more">more</button></a>
                  </div>
                </div>
 
@@ -84,7 +84,7 @@ function Projects(){
                   </div>
                   <div className="desc">
                   <p>LUCKY-DICER</p>
-                  <a href="http//github.com"><button className="more">more</button></a>
+                  <a href="https://github.com/B-a-l-aj-i/LuckyDicer"><button className="more">more</button></a>
                  </div>
                </div>
 
@@ -99,7 +99,7 @@ function Projects(){
                   </div>
                  <div className="desc">
                  <p>FIND-IMAGES</p>
-                 <a href="http//github.com"><button className="more">more</button></a>
+                 <a href="https://github.com/B-a-l-aj-i/LuckyDicer"><button className="more">more</button></a>
                  </div>
                </div>
              </main>
