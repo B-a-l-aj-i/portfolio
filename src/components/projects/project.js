@@ -97,7 +97,7 @@ function Projects(){
                   </div>
                  <div className="desc">
                  <p>FIND-IMAGES</p>
-                 <a href="https://github.com/B-a-l-aj-i/LuckyDicer"><button className="more">visit</button></a>
+                 <a href="https://github.com/B-a-l-aj-i/find-images"><button className="more">visit</button></a>
                  </div>
                </div>
              </main>
