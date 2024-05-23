@@ -46,9 +46,7 @@ function Projects(){
                <div className="cardpic">
                   <img src={ai} alt="imgs" style={{objectFit:'fill'}}/>
                   <article className="cont">
-                  I am an aspiring Frontend developer with a passion for creating user-friendly websites and 
-                  I am quite familiar with some web technologies 
-                  I am looking for an internship where I can leverage my skills and implement my knowledge in the real
+                
                   </article>
                   </div>
                   <div className="desc">
@@ -60,9 +58,7 @@ function Projects(){
                <div className="cardpic">
                   <img src={wai} alt="imgs"/>
                   <article className="cont">
-                  I am an aspiring Frontend developer with a passion for creating user-friendly websites and 
-                  I am quite familiar with some web technologies 
-                  I am looking for an internship where I can leverage my skills and implement my knowledge in the real
+                  
                   </article>
                   </div>
                   <div className="desc">
@@ -75,9 +71,7 @@ function Projects(){
                <div className="cardpic">
                   <img src={ld}  alt="imgs"/>
                   <article className="cont">
-                  I am an aspiring Frontend developer with a passion for creating user-friendly websites and 
-                  I am quite familiar with some web technologies 
-                  I am looking for an internship where I can leverage my skills and implement my knowledge in the real
+                  
                   </article>
                   </div>
                   <div className="desc">
@@ -90,9 +84,6 @@ function Projects(){
                   <div className="cardpic">
                   <img src={find} alt="imgs"  style={{objectFit:'fill'}} />
                   <article className="cont">
-                  I am an aspiring Frontend developer with a passion for creating user-friendly websites and 
-                  I am quite familiar with some web technologies 
-                  I am looking for an internship where I can leverage my skills and implement my knowledge in the real
                   </article>
                   </div>
                  <div className="desc">
