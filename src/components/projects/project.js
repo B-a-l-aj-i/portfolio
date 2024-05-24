@@ -32,7 +32,7 @@ function Projects(){
 
                <div className="card">
                   <div className="cardpic">
-                  <img src={simon} alt="imgs" />
+                  <img src={simon} alt="imgs"  style={{objectFit:'fill'}}/>
                   <article className="cont">
                    As usual a basic todo-list,you add taks and and remove them and it my first project 
                   </article>
