@@ -2,7 +2,7 @@
 import "./project.css"
 
 import yt from "./assets/yt.png"
-import simon from "./assets/simon.png"
+import simon from "./assets/SIMON2.png"
 import ai from "./assets/Screenshot 2024-04-23 211643.png"
 import wai from "./assets/image copy.png"
 import ld from "./assets/image.png"
