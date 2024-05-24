@@ -1,8 +1,8 @@
 
 import "./project.css"
 
-import todo from "./assets/todo.png"
 import yt from "./assets/yt.png"
+import simon from "./assets/simon.png"
 import ai from "./assets/Screenshot 2024-04-23 211643.png"
 import wai from "./assets/image copy.png"
 import ld from "./assets/image.png"
@@ -14,22 +14,10 @@ function Projects(){
              <div>
              <center><p className="p">Projects</p></center>
              </div>
+
              <main className="allcards">
-               <div className="card">
-                  <div className="cardpic">
-                  <img src={todo} alt="imgs" />
-                  <article className="cont">
-                   As usual a basic todo-list,you add taks and and remove them and it my first project 
-                  </article>
-                  </div>
-                 <div className="desc">
-                 <p>TODO-LIST</p>
-                 <a href="https://github.com/B-a-l-aj-i/TODO-list"><button className="more">visit</button></a>
-                 </div>
-               </div>
 
-
-               <div className="card">
+             <div className="card">
                <div className="cardpic">
                   <img src={yt}  alt="imgs"/>
                   <article className="cont">
@@ -40,8 +28,25 @@ function Projects(){
                   <p>YOUTUBE-CLONE</p>
                   <a href="https://github.com/B-a-l-aj-i"><button className="more">visit</button></a>
                  </div>
-
                </div>
+
+               <div className="card">
+                  <div className="cardpic">
+                  <img src={simon} alt="imgs" />
+                  <article className="cont">
+                   As usual a basic todo-list,you add taks and and remove them and it my first project 
+                  </article>
+                  </div>
+                 <div className="desc">
+                 <p>SIMON-GAME</p>
+                 <a href="https://github.com/B-a-l-aj-i/TODO-list"><button className="more">visit</button></a>
+                 </div>
+               </div>
+
+
+              
+
+
                <div className="card">
                <div className="cardpic">
                   <img src={ai} alt="imgs" style={{objectFit:'fill'}}/>
