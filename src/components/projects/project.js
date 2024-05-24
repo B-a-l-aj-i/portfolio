@@ -26,7 +26,7 @@ function Projects(){
                   </div>
                   <div className="desc">
                   <p>YOUTUBE-CLONE</p>
-                  <a href="https://github.com/B-a-l-aj-i"><button className="more">visit</button></a>
+                  <a href="https://github.com/B-a-l-aj-i/YOUTUBE-CLONE"><button className="more">visit</button></a>
                  </div>
                </div>
 
@@ -39,7 +39,7 @@ function Projects(){
                   </div>
                  <div className="desc">
                  <p>SIMON-GAME</p>
-                 <a href="https://github.com/B-a-l-aj-i/TODO-list"><button className="more">visit</button></a>
+                 <a href="https://github.com/B-a-l-aj-i/SIMON-GAME"><button className="more">visit</button></a>
                  </div>
                </div>
 
