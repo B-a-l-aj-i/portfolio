@@ -1,4 +1,4 @@
-
+import React, { useEffect } from 'react';
 import "./project.css"
 
 import yt from "./assets/yt.png"
@@ -9,6 +9,21 @@ import ld from "./assets/image.png"
 import find from "./assets/FIND.png"
 
 function Projects(){
+    useEffect(() => {
+        const cardsContainer = document.querySelector('.allcards');
+
+        const handleScroll = (event) => {
+            const scrollAmount = event.deltaY * 0.5;
+            cardsContainer.scrollLeft += scrollAmount;
+        };
+
+        cardsContainer.addEventListener('wheel', handleScroll);
+
+        return () => {
+            cardsContainer.removeEventListener('wheel', handleScroll);
+        };
+    }, []);
+
     return (
         <section className="container" id="projects">
              <div>
@@ -42,10 +57,6 @@ function Projects(){
                  <a href="https://github.com/B-a-l-aj-i/SIMON-GAME"><button className="more">visit</button></a>
                  </div>
                </div>
-
-
-              
-
 
                <div className="card">
                <div className="cardpic">
@@ -101,4 +112,4 @@ function Projects(){
     )
 }
 
-export default Projects
+export default Projects;
