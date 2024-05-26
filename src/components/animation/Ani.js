@@ -4,9 +4,7 @@ import  './ani.css'
 function Ani(){
     return(
     
-    <div className='box'> 
-    <a href='#About'> </a>
-    </div>
+        <a href='#ab' >  <div className='box'> </div> </a>
     )
 }
 
