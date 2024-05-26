@@ -4,12 +4,38 @@ import ai from "./assets/Screenshot 2024-04-23 211643.png";
 import wai from "./assets/image copy.png";
 import ld from "./assets/image.png";
 import find from "./assets/FIND.png";
+import { useEffect } from "react";
 
 import "./project.css";
 
 function Projects() {
-    if (window.innerWidth > 768) {
-        window.addEventListener('scroll', () => {
+  useEffect(() => {
+    console.log("useEffect called");
+    if (window.innerWidth <= 768) {
+      const allcards= document.querySelector('.allcards');
+      const dots = document.querySelectorAll('.dot');
+      console.log("allcardsContainer:", allcards);
+      console.log("dots:", dots);
+      
+      allcards.addEventListener('scroll', () => {
+        const scrollLeft = Math.floor(allcards.scrollLeft);
+        const cardWidth = Math.floor(allcards.clientWidth);
+        const index = Math.floor(scrollLeft / cardWidth);
+        dots.forEach((dot, i) => {
+          if (i==index+1) {
+            dot.classList.add('active');
+          } else {
+                    dot.classList.remove('active');
+                  }
+                });
+              });
+            }
+          }, []);
+
+          
+          
+          if (window.innerWidth > 768) {
+            window.addEventListener('scroll', () => {
             var revel = document.querySelectorAll(".card");
             var rev = document.querySelector(".container");
             let head = document.querySelector(".p");
@@ -109,6 +135,15 @@ function Projects() {
                             <a href="https://github.com/B-a-l-aj-i/find-images"><button className="more">visit</button></a>
                         </div>
                     </div>
+                </div>
+
+                <div className="dots-container">
+                    <div className="dot active"></div>
+                    <div className="dot"></div>
+                    <div className="dot"></div>
+                    <div className="dot"></div>
+                    <div className="dot"></div>
+                    <div className="dot"></div>
                 </div>
             </div>
         </section>
