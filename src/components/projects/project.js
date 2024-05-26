@@ -1,5 +1,4 @@
-import React, { useEffect } from 'react';
-import "./project.css"
+
 
 import yt from "./assets/yt.png"
 import simon from "./assets/SIMON2.png"
@@ -8,26 +7,39 @@ import wai from "./assets/image copy.png"
 import ld from "./assets/image.png"
 import find from "./assets/FIND.png"
 
+import "./project.css"
 function Projects(){
-    useEffect(() => {
-        const cardsContainer = document.querySelector('.allcards');
 
-        const handleScroll = (event) => {
-            const scrollAmount = event.deltaY * 0.5;
-            cardsContainer.scrollLeft += scrollAmount;
-        };
+  if(window.innerWidth>768){
+    window.addEventListener('scroll',()=>{
+    // console.log(window.innerHeight);
 
-        cardsContainer.addEventListener('wheel', handleScroll);
+    var revel=document.querySelectorAll(".card")
+    // console.log(revel);
+    let head=document.querySelector(".p")
+// console.log(head);
+    for(let i=0;i<revel.length;i++){
+      let windowHeight=window.innerHeight;
 
-        return () => {
-            cardsContainer.removeEventListener('wheel', handleScroll);
-        };
-    }, []);
+      let revelTop=revel[i].getBoundingClientRect().top;
+      let revelpoint=10;
+
+      if(revelTop< windowHeight-revelpoint){
+        head.classList.add('ls')
+        revel[i].classList.add('add')
+      }else{
+        head.classList.remove('ls')
+        revel[i].classList.remove('add')
+
+      }
+    }
+  })
+  }
 
     return (
         <section className="container" id="projects">
              <div>
-             <center><p className="p">Projects</p></center>
+             <center><p className="p ls">Projects</p></center>
              </div>
 
              <main className="allcards">
@@ -112,4 +124,4 @@ function Projects(){
     )
 }
 
-export default Projects;
+export default Projects

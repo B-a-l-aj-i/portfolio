@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     font-family: Arial, sans-serif;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 .allcards {
@@ -13,9 +13,29 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 23px;
     padding-bottom: 20px; /* Add some padding at the bottom */
+    perspective: 700px;
+    perspective-origin: center;
 }
+@keyframes ca{
+    from{
+        opacity: 0;
+        transform: rotateX(25deg);
+
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(2deg);
+
+    }
+}
+
+.add{
+    animation:ca  4s forwards;
+
+}
+
 
 .card {
     width: 330px;
@@ -25,16 +45,38 @@
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.6s ease-in-out;
+    background-color: #343f4a;
 }
+
 .card:hover{
     cursor: pointer;
+    transform: scale(0.9);
 }
+
 .cardpic {
     width: 100%;
     height: 250px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     overflow: hidden;
+}
+
+.p{
+    font-size: 32px;
+    letter-spacing:3vw;
+}
+.ls{
+animation: c 3.6s forwards;
+}
+
+@keyframes c{
+    from{
+        letter-spacing: 3vw;
+    }
+    to{
+        letter-spacing: 1px;
+
+    }
 }
 
 .cardpic img {
@@ -72,27 +114,35 @@
     transition: 0.2s;
 }
 @media (max-width: 768px) {
-    @keyframes slide {
+    /* @keyframes slide {
         0% { transform: translateX(0); }
         20% { transform: translateX(0); }
-        25% { transform: translateX(-50%); }
-        45% { transform: translateX(-75%); }
+        25% { transform: translateX(-100%); }
+        45% { transform: translateX(-100%); }
         50% { transform: translateX(-200%); }
         70% { transform: translateX(-200%); }
         75% { transform: translateX(-300%); }
         95% { transform: translateX(-300%); }
         100% { transform: translateX(0); }
-    }
-
-    .allcards {
-        flex-wrap: nowrap; /* Prevent wrapping */
-        overflow-x: auto; /* Enable horizontal scrolling */
-        -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
-        width: 100vw; /* Full viewport width */
-        padding: 20px 0; /* Adjust padding */
-    }
+    } */
+    @keyframes c{
+        from{
+            letter-spacing: 5px;
+        }
+        to{
+            letter-spacing: 1px;
     
-    .card {
+        }
+    }
+.allcards{
+    gap: 10px;
+}
+.allcards {
+    width: 100vw; /* Full viewport width */
+    padding: 20px 0; /* Adjust padding */
+}
+
+.card {
         animation: slide 20s infinite;
         flex: 0 0 auto; /* Prevent cards from shrinking or growing */
         margin-right: 20px; /* Space between cards */
@@ -100,8 +150,8 @@
 }
 
 .card {
-    width: 330px;
-    height: 320px;
+    width: 300px;
+    height: 290px;
     position: relative;
     background-color: #fff;
     border-radius: 10px;
@@ -109,13 +159,9 @@
     transition: transform 0.6s ease-in-out;
 }
 
-.card:hover {
-    cursor: pointer;
-}
-
 .cardpic {
     width: 100%;
-    height: 250px;
+    height: 200px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     overflow: hidden;

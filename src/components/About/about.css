@@ -10,7 +10,9 @@
     max-width:69%;
     padding-top:7% ;
 }
-
+.pa{
+    font-size: 2rem;
+}
 
 .content{
     font-size: 1.1rem;
@@ -19,6 +21,18 @@
     border: 1px solid black;
     border-radius: 30px;
     line-height: 2rem;
+}
+
+.coad{
+    animation: co 2s forwards;
+}
+
+@keyframes co{
+    from{
+        transform: translateX(-100px);
+    }to{
+        transform: translateX(00px);
+    }
 }
 .pic{
     width:278px;
@@ -30,6 +44,22 @@
     display: ruby;
 }
 
+.pani{
+    animation: picani 2s forwards;
+
+}
+
+@keyframes picani {
+
+    from{
+        transform: translateX(200px);
+        opacity: 0.6;
+    }ro{
+        transform: translate(0);
+        opacity: 1;
+    }
+    
+}
 
 @media screen and (max-width:750px) {
     body{
