@@ -16,7 +16,7 @@ function About(){
         for(let i=0;i<1;i++){
           let windowHeight=window.innerHeight;
     
-          let revelTop=cont.getBoundingClientRect().top;
+          let revelTop=pdp.getBoundingClientRect().top;
           let revelpoint=10;
     
           if(revelTop< windowHeight-revelpoint){

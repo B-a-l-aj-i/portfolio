@@ -1,127 +1,66 @@
+import React, { useState, useEffect, useRef } from 'react';
+import yt from "./assets/yt.png";
+import simon from "./assets/SIMON2.png";
+import ai from "./assets/Screenshot 2024-04-23 211643.png";
+import wai from "./assets/image copy.png";
+import ld from "./assets/image.png";
+import find from "./assets/FIND.png";
+import "./project.css";
 
+function Projects() {
+    const [currentIndex, setCurrentIndex] = useState(0);
+    const scrollRef = useRef(null);
 
-import yt from "./assets/yt.png"
-import simon from "./assets/SIMON2.png"
-import ai from "./assets/Screenshot 2024-04-23 211643.png"
-import wai from "./assets/image copy.png"
-import ld from "./assets/image.png"
-import find from "./assets/FIND.png"
+    const cards = [
+        { src: yt, desc: "YOUTUBE-CLONE", link: "https://github.com/B-a-l-aj-i/YOUTUBE-CLONE", text: "it not the complete clone of youtube it has only single page in it and responsive todo" },
+        { src: simon, desc: "SIMON-GAME", link: "https://github.com/B-a-l-aj-i/SIMON-GAME", text: "As usual a basic todo-list,you add tasks and remove them and it my first project" },
+        { src: ai, desc: "SEARCH-AI", link: "https://github.com/B-a-l-aj-i", text: "" },
+        { src: wai, desc: "WHERE-AM-I", link: "https://github.com/B-a-l-aj-i/Where-am-I", text: "" },
+        { src: ld, desc: "LUCKY-DICER", link: "https://github.com/B-a-l-aj-i/LuckyDicer", text: "" },
+        { src: find, desc: "FIND-IMAGES", link: "https://github.com/B-a-l-aj-i/find-images", text: "" },
+    ];
 
-import "./project.css"
-function Projects(){
+    const handleScroll = () => {
+        const scrollLeft = scrollRef.current.scrollLeft;
+        const cardWidth = scrollRef.current.clientWidth;
+        const index = Math.round(scrollLeft / cardWidth);
+        setCurrentIndex(index);
+    };
 
-  if(window.innerWidth>768){
-    window.addEventListener('scroll',()=>{
-    // console.log(window.innerHeight);
-
-    var revel=document.querySelectorAll(".card")
-    // console.log(revel);
-    let head=document.querySelector(".p")
-// console.log(head);
-    for(let i=0;i<revel.length;i++){
-      let windowHeight=window.innerHeight;
-
-      let revelTop=revel[i].getBoundingClientRect().top;
-      let revelpoint=10;
-
-      if(revelTop< windowHeight-revelpoint){
-        head.classList.add('ls')
-        revel[i].classList.add('add')
-      }else{
-        head.classList.remove('ls')
-        revel[i].classList.remove('add')
-
-      }
-    }
-  })
-  }
+    useEffect(() => {
+        const ref = scrollRef.current;
+        ref.addEventListener('scroll', handleScroll);
+        return () => ref.removeEventListener('scroll', handleScroll);
+    }, []);
 
     return (
         <section className="container" id="projects">
-             <div>
-             <center><p className="p ls">Projects</p></center>
-             </div>
-
-             <main className="allcards">
-
-             <div className="card">
-               <div className="cardpic">
-                  <img src={yt}  alt="imgs"/>
-                  <article className="cont">
-                   it not the complete clone of youtube it has only single page in it and responsive todo 
-                   </article>
-                  </div>
-                  <div className="desc">
-                  <p>YOUTUBE-CLONE</p>
-                  <a href="https://github.com/B-a-l-aj-i/YOUTUBE-CLONE"><button className="more">visit</button></a>
-                 </div>
-               </div>
-
-               <div className="card">
-                  <div className="cardpic">
-                  <img src={simon} alt="imgs"  style={{objectFit:'fill'}}/>
-                  <article className="cont">
-                   As usual a basic todo-list,you add taks and and remove them and it my first project 
-                  </article>
-                  </div>
-                 <div className="desc">
-                 <p>SIMON-GAME</p>
-                 <a href="https://github.com/B-a-l-aj-i/SIMON-GAME"><button className="more">visit</button></a>
-                 </div>
-               </div>
-
-               <div className="card">
-               <div className="cardpic">
-                  <img src={ai} alt="imgs" style={{objectFit:'fill'}}/>
-                  <article className="cont">
-                
-                  </article>
-                  </div>
-                  <div className="desc">
-                  <p>SEARCH-AI</p>
-                  <a href="https://github.com/B-a-l-aj-i"><button className="more">visit</button></a>
-                 </div>
-               </div>
-               <div className="card">
-               <div className="cardpic">
-                  <img src={wai} alt="imgs"/>
-                  <article className="cont">
-                  
-                  </article>
-                  </div>
-                  <div className="desc">
-                  <p>WHERE-AM-I</p>
-                  <a href="https://github.com/B-a-l-aj-i/Where-am-I"><button className="more">visit</button></a>
-                 </div>
-               </div>
-
-               <div className="card">
-               <div className="cardpic">
-                  <img src={ld}  alt="imgs"/>
-                  <article className="cont">
-                  
-                  </article>
-                  </div>
-                  <div className="desc">
-                  <p>LUCKY-DICER</p>
-                  <a href="https://github.com/B-a-l-aj-i/LuckyDicer"><button className="more">visit</button></a>
-                 </div>
-               </div>
-
-               <div className="card">
-                  <div className="cardpic">
-                  <img src={find} alt="imgs"  style={{objectFit:'fill'}} />
-                  <article className="cont">
-                  </article>
-                  </div>
-                 <div className="desc">
-                 <p>FIND-IMAGES</p>
-                 <a href="https://github.com/B-a-l-aj-i/find-images"><button className="more">visit</button></a>
-                 </div>
-               </div>
-             </main>
+            <div>
+                <center><p className="p ls">Projects</p></center>
+            </div>
+            <div className="allcards-container">
+                <div className="allcards" ref={scrollRef}>
+                    {cards.map((card, index) => (
+                        <div className="card" key={index}>
+                            <div className="cardpic">
+                                <img src={card.src} alt="imgs" />
+                                <article className="cont">{card.text}</article>
+                            </div>
+                            <div className="desc">
+                                <p>{card.desc}</p>
+                                <a href={card.link}><button className="more">visit</button></a>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+                <div className="dots">
+                    {cards.map((_, index) => (
+                        <span key={index} className={`dot ${currentIndex === index ? 'active' : ''}`} />
+                    ))}
+                </div>
+            </div>
         </section>
-    )
+    );
 }
 
-export default Projects
+export default Projects;
