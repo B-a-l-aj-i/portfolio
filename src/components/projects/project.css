@@ -72,6 +72,18 @@
     transition: 0.2s;
 }
 @media (max-width: 768px) {
+    @keyframes slide {
+        0% { transform: translateX(0); }
+        20% { transform: translateX(0); }
+        25% { transform: translateX(-50%); }
+        45% { transform: translateX(-75%); }
+        50% { transform: translateX(-200%); }
+        70% { transform: translateX(-200%); }
+        75% { transform: translateX(-300%); }
+        95% { transform: translateX(-300%); }
+        100% { transform: translateX(0); }
+    }
+
     .allcards {
         flex-wrap: nowrap; /* Prevent wrapping */
         overflow-x: auto; /* Enable horizontal scrolling */
@@ -79,8 +91,9 @@
         width: 100vw; /* Full viewport width */
         padding: 20px 0; /* Adjust padding */
     }
-
+    
     .card {
+        animation: slide 20s infinite;
         flex: 0 0 auto; /* Prevent cards from shrinking or growing */
         margin-right: 20px; /* Space between cards */
     }
