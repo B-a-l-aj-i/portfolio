@@ -11,7 +11,6 @@ import "./project.css";
 function Projects() {
   useEffect(() => {
     console.log("useEffect called");
-    if (window.innerWidth <= 768) {
       const allcards= document.querySelector('.allcards');
       const dots = document.querySelectorAll('.dot');
       console.log("allcardsContainer:", allcards);
@@ -29,7 +28,6 @@ function Projects() {
                   }
                 });
               });
-            }
           }, []);
 
           

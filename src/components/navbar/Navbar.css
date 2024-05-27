@@ -1,8 +1,7 @@
 
  body{
-    /* margin: 0; */
-    /* padding: 0; */
-    /* padding-top:5%; */
+    margin: 0;
+    padding: 0;
     background-color: #fae9d7;
 }
 .navBar{
@@ -65,12 +64,14 @@
 }
 @media screen and (max-width:760px){
     body{
-       background-color:rgb(255, 230, 230) !important;
+       background-color:rgb(250, 233, 215) !important;
            }
+
+
     .navBar{
         top: 4px;
         left: 1%;
-        right: 1%;
+        right: 4%;
     }
 
     .ham {
@@ -84,15 +85,11 @@
         justify-content: space-evenly;
     }
     
-    body {
-        padding-left: 2%;
-    }
-    
     .lists li {
         width: 100px;
         padding:3%;
         text-align:center;
-        background-color: rgb(238, 128, 250);
+        background-color: rgb(133, 61, 142);
         border-radius:10px;
         color:white;
     }
