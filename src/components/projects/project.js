@@ -17,14 +17,15 @@ function Projects() {
       console.log("dots:", dots);
       
       allcards.addEventListener('scroll', () => {
-        const scrollLeft = Math.floor(allcards.scrollLeft);
-        const cardWidth = Math.floor(allcards.clientWidth);
-        const index = Math.floor(scrollLeft / cardWidth);
+        const scrollLeft = Math.ceil(allcards.scrollLeft);
+        const cardWidth = Math.ceil(allcards.clientWidth);
+        const index = Math.ceil(scrollLeft / cardWidth);
+        console.log(index);
         dots.forEach((dot, i) => {
-          if (i===index+1) {
+          if (i===index) {
             dot.classList.add('active');
           } else {
-                    dot.classList.remove('active');
+                dot.classList.remove('active');
                   }
                 });
               });
