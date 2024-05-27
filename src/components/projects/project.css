@@ -144,7 +144,7 @@ animation: c 3.6s forwards;
         display: flex;
         flex-wrap: nowrap;
         justify-content: left;
-        overflow-x:visible; /* Enable horizontal scrolling */
+        overflow-x:scroll; /* Enable horizontal scrolling */
         scroll-snap-type: x mandatory; /* Snap to cards */
         -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
         padding: 20px 0; /* Adjust padding */
