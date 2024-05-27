@@ -64,7 +64,7 @@
 }
 @media screen and (max-width:760px){
     body{
-       background-color:rgb(250, 215, 225) !important;
+       background-color:rgb(255, 222, 234) !important;
            }
 
 
@@ -89,7 +89,7 @@
         width: 100px;
         padding:3%;
         text-align:center;
-        background-color: rgb(133, 61, 142);
+        background-color: rgb(99, 0, 110);
         border-radius:10px;
         color:white;
     }
