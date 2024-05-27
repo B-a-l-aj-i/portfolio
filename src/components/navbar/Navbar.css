@@ -1,7 +1,7 @@
 
  body{
     margin: 0;
-    padding: 0;
+    /* padding: 0; */
     background-color: #fae9d7;
 }
 .navBar{
@@ -64,7 +64,7 @@
 }
 @media screen and (max-width:760px){
     body{
-       background-color:rgb(255, 222, 234) !important;
+ background-color: #ffe7e7    ;
            }
 
 
