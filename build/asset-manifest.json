@@ -1,15 +1,34 @@
 {
   "files": {
-    "main.css": "/static/css/main.0cab7b5f.css",
-    "main.js": "/static/js/main.755c69e8.js",
+    "main.css": "/static/css/main.7bc8cc7f.css",
+    "main.js": "/static/js/main.7e12aa2f.js",
+    "static/media/yt.png": "/static/media/yt.b6c3f9054e5a18607bd1.png",
+    "static/media/FIND.png": "/static/media/FIND.700029d43dbc83239c48.png",
+    "static/media/image.png": "/static/media/image.29e09131974f7aebfa15.png",
+    "static/media/Screenshot 2024-04-23 211643.png": "/static/media/Screenshot 2024-04-23 211643.98465cd24369bf58fabd.png",
+    "static/media/WhatsApp Image 2024-04-13 at 19.28.41_0aa2cb96.jpg": "/static/media/WhatsApp Image 2024-04-13 at 19.28.41_0aa2cb96.d0b06b9f5a291c2605f3.jpg",
+    "static/media/image copy.png": "/static/media/image copy.238000acb55fb912646f.png",
+    "static/media/SIMON2.png": "/static/media/SIMON2.6d3b0a4ff6ceb646822b.png",
+    "static/media/simple-icons--postgresql.png": "/static/media/simple-icons--postgresql.dbee5463b6fdf10b2650.png",
+    "static/media/ri--reactjs-fill.png": "/static/media/ri--reactjs-fill.aa95f9a92497a181f048.png",
+    "static/media/devicon-plain--java.png": "/static/media/devicon-plain--java.79da41eaa00a7d3a31ef.png",
+    "static/media/logos--figma.png": "/static/media/logos--figma.b5686107966b20376d1a.png",
+    "static/media/uiw--html5.png": "/static/media/uiw--html5.289d9aa9be85479391e3.png",
+    "static/media/simple-icons--css3.png": "/static/media/simple-icons--css3.2ff13d7def7b96719bba.png",
     "static/media/jam--github.png": "/static/media/jam--github.c5feab48198f9d2a42a8.png",
+    "static/media/cib--git.png": "/static/media/cib--git.4c00cab2e1c0be0a602c.png",
+    "static/media/simple-icons--bootstrap.png": "/static/media/simple-icons--bootstrap.68c1f9cf53bf82012266.png",
+    "static/media/mdi--address-marker.png": "/static/media/mdi--address-marker.b29171ff337ef4771df9.png",
     "static/media/simple-icons--linkedin.png": "/static/media/simple-icons--linkedin.95cb307eb5defa3f3bdc.png",
+    "static/media/fa6-solid--square-phone.png": "/static/media/fa6-solid--square-phone.23c32dd47290b4a7fe6b.png",
+    "static/media/ic--baseline-email.png": "/static/media/ic--baseline-email.08116dd54f0985633b43.png",
+    "static/media/fa-brands--js.png": "/static/media/fa-brands--js.e8ea5a33c18cf4d269ec.png",
     "index.html": "/index.html",
-    "main.0cab7b5f.css.map": "/static/css/main.0cab7b5f.css.map",
-    "main.755c69e8.js.map": "/static/js/main.755c69e8.js.map"
+    "main.7bc8cc7f.css.map": "/static/css/main.7bc8cc7f.css.map",
+    "main.7e12aa2f.js.map": "/static/js/main.7e12aa2f.js.map"
   },
   "entrypoints": [
-    "static/css/main.0cab7b5f.css",
-    "static/js/main.755c69e8.js"
+    "static/css/main.7bc8cc7f.css",
+    "static/js/main.7e12aa2f.js"
   ]
 }
