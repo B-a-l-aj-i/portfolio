@@ -21,7 +21,7 @@ function Projects() {
         const cardWidth = Math.floor(allcards.clientWidth);
         const index = Math.floor(scrollLeft / cardWidth);
         dots.forEach((dot, i) => {
-          if (i==index+1) {
+          if (i===index+1) {
             dot.classList.add('active');
           } else {
                     dot.classList.remove('active');
